@@ -5,7 +5,7 @@ The source code for an **autonomous line follower and maze-solving robot**, deve
 We built **two versions of this robot (2023 & 2024)**, each with a unique mechanical design and control architecture.
 
 
-![Robot Overview](images/robot_overview.jpg)
+![Robot Overview](images/.jpeg)
 
 ---
 
