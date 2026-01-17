@@ -4,9 +4,7 @@ The source code for an **autonomous line follower and maze-solving robot**, deve
 
 We built **two versions of this robot (2023 & 2024)**, each with a unique mechanical design and control architecture.
 
-
-<<<<<<< HEAD
-![team](images/team1.jpeg)
+![team](images/team.jpg)
 
 
 
@@ -81,7 +79,7 @@ The robot is powered by **three 3.7V LiPo batteries**. A **7805 linear voltage r
 The ESP32 handles real-time sensor processing, PID computation, and motor control without any external assistance.
 
 ---
-![team](images/team.jpg)
+!(images/team1.jpeg)
 ## **Main Components**
 
 ### **Controller**
