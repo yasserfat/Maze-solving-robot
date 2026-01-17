@@ -27,7 +27,7 @@ In 2024, we switched to a **2-motor differential drive** architecture to simplif
 - Lower mechanical and wiring complexity  
 - Improved reliability in maze navigation  
 
-![2024 Robot](images/robot-2024.jpg)
+![2024 Robot](images/robot-2024.jpeg)
 
 ---
 
