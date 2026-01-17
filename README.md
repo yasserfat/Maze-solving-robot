@@ -5,7 +5,7 @@ The source code for an **autonomous line follower and maze-solving robot**, deve
 We built **two versions of this robot (2023 & 2024)**, each with a unique mechanical design and control architecture.
 
 
-![Robot Overview](images/robot_overview.jpg)
+![team](images/team1.jpeg)
 
 ---
 
@@ -14,7 +14,7 @@ We built **two versions of this robot (2023 & 2024)**, each with a unique mechan
 ### **2023 Version – 4-Motor Design**
 The 2023 robot used **four motors with four wheels**, providing good mechanical stability. However, this configuration required complex motor synchronization, higher power consumption, and increased wiring complexity, which made precise control more difficult.
 
-![2023 Robot](images/robot_2023.jpg)
+![2023 Robot](images/robot-23.jpeg)
 
 ### **2024 Version – 2-Motor Differential Drive**
 In 2024, we switched to a **2-motor differential drive** architecture to simplify control and improve performance.
@@ -26,7 +26,7 @@ In 2024, we switched to a **2-motor differential drive** architecture to simplif
 - Lower mechanical and wiring complexity  
 - Improved reliability in maze navigation  
 
-![2024 Robot](images/robot_2024.jpg)
+![2024 Robot](images/robot-2024.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ In 2024, we switched to a **2-motor differential drive** architecture to simplif
 
 The robot is an **autonomous line-following and maze-solving system** controlled by an **ESP32 Wroom 32D**. It navigates the maze independently, focusing on precision, speed, and stability.
 
-![System Architecture](images/system_architecture.jpg)
+![System Architecture](images/circuit.png)
 
 ---
 
@@ -48,7 +48,7 @@ The robot uses a **QTR A8 IR sensor array** to continuously detect the position 
 
 The PID output dynamically adjusts the speed difference between the **two N20 DC motors** via the **L293D motor driver**, enabling smooth and accurate differential steering, especially at intersections and sharp turns.
 
-![PID Control](images/pid_control.jpg)
+![PID Control](images/pid.jfif)
 
 ---
 
@@ -57,9 +57,8 @@ The PID output dynamically adjusts the speed difference between the **two N20 DC
 The robot autonomously explores the maze by detecting junctions using the IR sensor array and applies a predefined maze-solving strategy (e.g., left-hand rule or optimized path learning).  
 Once the optimal path is identified, the robot traverses the maze at higher speed while maintaining stability using the tuned PID loop.
 
-![Maze Solving](images/maze_solving.jpg)
 
----
+
 
 ## **Color Detection & Mini-Games**
 
@@ -69,7 +68,7 @@ A **TCS34725 color sensor** enables interaction with Polymaze mini-games:
 - **Blue band detected:** Triggers a buzzer  
 - **Maze exit detected:** Displays **“Prison Break”** on the OLED screen  
 
-![Color Detection](images/color_detection.jpg)
+
 
 ---
 
@@ -79,7 +78,7 @@ The robot is powered by **three 3.7V LiPo batteries**. A **7805 linear voltage r
 The ESP32 handles real-time sensor processing, PID computation, and motor control without any external assistance.
 
 ---
-
+![team](images/team.jpg)
 ## **Main Components**
 
 ### **Controller**
