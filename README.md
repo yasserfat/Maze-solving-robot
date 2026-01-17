@@ -15,7 +15,12 @@ We built **two versions of this robot (2023 & 2024)**, each with a unique mechan
 ### **2023 Version – 4-Motor Design**
 The 2023 robot used **four motors with four wheels**, providing good mechanical stability. However, this configuration required complex motor synchronization, higher power consumption, and increased wiring complexity, which made precise control more difficult.
 
-![2023 Robot](images/robot-23.jpeg)
+<div style="display: flex; gap: 150px; align-items: center ; width:100% ">
+  <img src="images/robot-23.jpeg" alt="2023 Robot" height="400px" style="object-fit: contain;"/>
+  <img src="images/43.jpeg" alt="2024 Robot" height="400px" style="object-fit: contain;"/>
+    <img src="images/12.jpeg" alt="2024 Robot" height="400px" style="object-fit: contain;"/>
+</div>
+
 
 ### **2024 Version – 2-Motor Differential Drive**
 In 2024, we switched to a **2-motor differential drive** architecture to simplify control and improve performance.
@@ -27,8 +32,12 @@ In 2024, we switched to a **2-motor differential drive** architecture to simplif
 - Lower mechanical and wiring complexity  
 - Improved reliability in maze navigation  
 
-![2024 Robot](images/robot-2024.jpeg)
 
+<div style="display: flex; gap: 150px; align-items: center ; width:100% ">
+  <img src="images/robot-2024.jpeg" alt="2023 Robot" height="400px" style="object-fit: contain;"/>
+  <img src="images/122.jpeg" alt="2024 Robot" height="400px" style="object-fit: contain;"/>
+   
+</div>
 ---
 
 ## **Robot Functionality (Technical Overview)**
@@ -79,7 +88,8 @@ The robot is powered by **three 3.7V LiPo batteries**. A **7805 linear voltage r
 The ESP32 handles real-time sensor processing, PID computation, and motor control without any external assistance.
 
 ---
-!(images/team1.jpeg)
+
+![team](images/team1.jpeg)
 ## **Main Components**
 
 ### **Controller**
