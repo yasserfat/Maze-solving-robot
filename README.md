@@ -7,9 +7,8 @@ We built **two versions of this robot (2023 & 2024)**, each with a unique mechan
 
 <<<<<<< HEAD
 ![team](images/team1.jpeg)
-=======
-![Robot Overview](images/.jpeg)
->>>>>>> 0ce668d7c5ad054eed9cd055378efa3d05779453
+
+
 
 ---
 
